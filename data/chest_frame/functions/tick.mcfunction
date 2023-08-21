@@ -1,0 +1,1 @@
+execute if predicate chest_frame:time_check/second run function chest_frame:chest_display/0

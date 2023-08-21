@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ chest[type=left,facing=east] positioned ~0.5 ~ ~ if entity @s[distance=..0.1] at @s run tp ~ ~ ~0.5
+execute if block ~ ~ ~ chest[type=right,facing=east] positioned ~0.5 ~ ~ if entity @s[distance=..0.1] at @s run tp ~ ~ ~-0.5
+execute if block ~ ~ ~ chest[type=left,facing=west] positioned ~-0.5 ~ ~ if entity @s[distance=..0.1] at @s run tp ~ ~ ~-0.5
+execute if block ~ ~ ~ chest[type=right,facing=west] positioned ~-0.5 ~ ~ if entity @s[distance=..0.1] at @s run tp ~ ~ ~0.5
+execute if block ~ ~ ~ chest[type=left,facing=north] positioned ~ ~ ~-0.5 if entity @s[distance=..0.1] at @s run tp ~0.5 ~ ~
+execute if block ~ ~ ~ chest[type=right,facing=north] positioned ~ ~ ~-0.5 if entity @s[distance=..0.1] at @s run tp ~-0.5 ~ ~
+execute if block ~ ~ ~ chest[type=left,facing=south] positioned ~ ~ ~0.5 if entity @s[distance=..0.1] at @s run tp ~-0.5 ~ ~
+execute if block ~ ~ ~ chest[type=right,facing=south] positioned ~ ~ ~0.5 if entity @s[distance=..0.1] at @s run tp ~0.5 ~ ~
+execute if block ~ ~ ~ chest[type=left,facing=east] positioned ~ ~0.5 ~ if entity @s[distance=..0.1] at @s run tp ~ ~ ~0.5
+execute if block ~ ~ ~ chest[type=right,facing=east] positioned ~ ~0.5 ~ if entity @s[distance=..0.1] at @s run tp ~ ~ ~-0.5
+execute if block ~ ~ ~ chest[type=left,facing=west] positioned ~ ~0.5 ~ if entity @s[distance=..0.1] at @s run tp ~ ~ ~-0.5
+execute if block ~ ~ ~ chest[type=right,facing=west] positioned ~ ~0.5 ~ if entity @s[distance=..0.1] at @s run tp ~ ~ ~0.5
+execute if block ~ ~ ~ chest[type=left,facing=north] positioned ~ ~0.5 ~ if entity @s[distance=..0.1] at @s run tp ~0.5 ~ ~
+execute if block ~ ~ ~ chest[type=right,facing=north] positioned ~ ~0.5 ~ if entity @s[distance=..0.1] at @s run tp ~-0.5 ~ ~
+execute if block ~ ~ ~ chest[type=left,facing=south] positioned ~ ~0.5 ~ if entity @s[distance=..0.1] at @s run tp ~-0.5 ~ ~
+execute if block ~ ~ ~ chest[type=right,facing=south] positioned ~ ~0.5 ~ if entity @s[distance=..0.1] at @s run tp ~0.5 ~ ~

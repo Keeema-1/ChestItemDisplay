@@ -1,0 +1,1 @@
+kill @e[type=item_display,tag=cf.chest_display]
