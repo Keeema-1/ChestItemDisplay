@@ -1,4 +1,4 @@
-# ChestFrame_v1.0.0
+# ChestItemDisplay_v1.0.0
 
 製作者Twitter: @keeema_1
 
