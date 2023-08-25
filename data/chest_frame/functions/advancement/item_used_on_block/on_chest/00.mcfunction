@@ -1,9 +1,9 @@
 tp @s ^ ^ ^ ~ ~
 execute if entity @e[type=glow_item_frame,tag=cf.frame_check,limit=1] run tag @s add cf.glowing
-execute if entity @e[type=#chest_frame:item_frames,tag=cf.frame_check,nbt={ItemRotation:1b},limit=1] positioned ^ ^ ^-0.5 unless block ~ ~ ~ chest[type=single] run function chest_frame:advancement/item_used_on_block/on_chest/000
-execute if entity @e[type=#chest_frame:item_frames,tag=cf.frame_check,nbt={ItemRotation:3b},limit=1] positioned ^ ^ ^-0.5 unless block ~ ~ ~ chest[type=single] run function chest_frame:advancement/item_used_on_block/on_chest/000
-execute if entity @e[type=#chest_frame:item_frames,tag=cf.frame_check,nbt={ItemRotation:5b},limit=1] positioned ^ ^ ^-0.5 unless block ~ ~ ~ chest[type=single] run function chest_frame:advancement/item_used_on_block/on_chest/000
-execute if entity @e[type=#chest_frame:item_frames,tag=cf.frame_check,nbt={ItemRotation:7b},limit=1] positioned ^ ^ ^-0.5 unless block ~ ~ ~ chest[type=single] run function chest_frame:advancement/item_used_on_block/on_chest/000
+execute if entity @e[type=#chest_frame:item_frames,tag=cf.frame_check,nbt={ItemRotation:1b},limit=1] positioned ^ ^ ^-0.5 if block ~ ~ ~ #chest_frame:chests unless block ~ ~ ~ #chest_frame:chests[type=single] run function chest_frame:advancement/item_used_on_block/on_chest/000
+execute if entity @e[type=#chest_frame:item_frames,tag=cf.frame_check,nbt={ItemRotation:3b},limit=1] positioned ^ ^ ^-0.5 if block ~ ~ ~ #chest_frame:chests unless block ~ ~ ~ #chest_frame:chests[type=single] run function chest_frame:advancement/item_used_on_block/on_chest/000
+execute if entity @e[type=#chest_frame:item_frames,tag=cf.frame_check,nbt={ItemRotation:5b},limit=1] positioned ^ ^ ^-0.5 if block ~ ~ ~ #chest_frame:chests unless block ~ ~ ~ #chest_frame:chests[type=single] run function chest_frame:advancement/item_used_on_block/on_chest/000
+execute if entity @e[type=#chest_frame:item_frames,tag=cf.frame_check,nbt={ItemRotation:7b},limit=1] positioned ^ ^ ^-0.5 if block ~ ~ ~ #chest_frame:chests unless block ~ ~ ~ #chest_frame:chests[type=single] run function chest_frame:advancement/item_used_on_block/on_chest/000
 execute at @s positioned ^ ^ ^-0.5 positioned ~ ~0.5 ~ if entity @s[distance=..0.1] at @s positioned ^ ^ ^-0.5 run function chest_frame:advancement/item_used_on_block/on_chest/001
 execute if entity @e[type=#chest_frame:item_frames,tag=cf.frame_check,nbt={ItemRotation:4b},limit=1] at @s run tp ^ ^ ^-0.1
 execute if entity @e[type=#chest_frame:item_frames,tag=cf.frame_check,nbt={ItemRotation:5b},limit=1] at @s run tp ^ ^ ^-0.1
