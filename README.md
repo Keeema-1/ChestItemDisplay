@@ -2,7 +2,7 @@
 
 製作者Twitter: @keeema_1
 
-Minecraft Java Edition version 1.20.1 用
+For: Minecraft Java Edition version 1.20.1
 
 
 チェスト（トラップチェスト、樽を含む）に設置した額縁（および輝く額縁）の判定を無くすことができるデータパックです。
