@@ -13,8 +13,8 @@ execute if entity @e[type=#chest_frame:item_frames,tag=cf.frame_check,nbt={ItemR
 execute if entity @e[type=#chest_frame:item_frames,tag=cf.frame_check,nbt={ItemRotation:3b},limit=1] at @s run function chest_frame:advancement/item_used_on_block/on_chest/002
 execute if entity @e[type=#chest_frame:item_frames,tag=cf.frame_check,nbt={ItemRotation:6b},limit=1] at @s run function chest_frame:advancement/item_used_on_block/on_chest/002
 execute if entity @e[type=#chest_frame:item_frames,tag=cf.frame_check,nbt={ItemRotation:7b},limit=1] at @s run function chest_frame:advancement/item_used_on_block/on_chest/002
-data modify entity @s item set from entity @e[type=#chest_frame:item_frames,tag=cf.frame_check,limit=1] Item
-data modify entity @s transformation.scale set value [0.55f,0.55f,0.55f]
-data modify entity @s item_display set value "fixed"
-execute if entity @s[tag=cf.glowing] run data modify entity @s brightness set value {block:15,sky:0}
+data modify entity @s ArmorItems[3] set from entity @e[type=#chest_frame:item_frames,tag=cf.frame_check,limit=1] Item
+# data modify entity @s transformation.scale set value [0.55f,0.55f,0.55f]
+# data modify entity @s item_display set value "fixed"
+# execute if entity @s[tag=cf.glowing] run data modify entity @s brightness set value {block:15,sky:0}
 tag @s add cf.chest_display

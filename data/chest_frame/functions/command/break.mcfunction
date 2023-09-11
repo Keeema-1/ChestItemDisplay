@@ -1,1 +1,1 @@
-kill @e[type=item_display,tag=cf.chest_display]
+kill @e[type=armor_stand,tag=cf.chest_display]
