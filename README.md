@@ -1,8 +1,8 @@
-# ChestItemDisplay_v1.2
+# ChestItemDisplay_v1.3
 
 製作者Twitter: @keeema_1
 
-For: Minecraft Java Edition version 1.20.5 ~ 1.20.6
+For: Minecraft Java Edition version 1.21.0 ~ 1.21.1
 
 使い方は以下のURLから確認してください：  
 Please check the following URL for usage instructions:  
