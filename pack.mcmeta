@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 32,
+    "pack_format": 41,
     "description": "チェストに取り付けた額縁の判定を無くすデータパック / Eliminate collision detection of picture frames attached to chests"
   }
 }
