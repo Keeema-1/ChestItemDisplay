@@ -1,4 +1,4 @@
-# ChestItemDisplay_v1.3
+# ChestItemDisplay_v1.2
 
 製作者Twitter: @keeema_1
 
