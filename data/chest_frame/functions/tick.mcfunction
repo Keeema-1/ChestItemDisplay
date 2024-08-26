@@ -1,1 +1,1 @@
-execute if predicate chest_frame:time_check/second run function chest_frame:chest_display/0
+execute if predicate chest_frame:break_check run function chest_frame:chest_display/0

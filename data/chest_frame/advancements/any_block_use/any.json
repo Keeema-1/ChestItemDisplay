@@ -1,0 +1,11 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:any_block_use",
+			"conditions": {}
+		}
+	},
+	"rewards": {
+		"function": "chest_frame:advancement/any_block_use/any"
+	}
+}

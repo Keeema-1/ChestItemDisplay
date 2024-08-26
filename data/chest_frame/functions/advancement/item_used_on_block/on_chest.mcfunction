@@ -1,2 +1,0 @@
-execute positioned ^ ^ ^3 as @e[type=#chest_frame:item_frames,distance=..4] at @s if block ^ ^ ^-0.5 #chest_frame:storage if data entity @s Item run function chest_frame:advancement/item_used_on_block/on_chest/0
-advancement revoke @s only chest_frame:item_used_on_block/on_chest
